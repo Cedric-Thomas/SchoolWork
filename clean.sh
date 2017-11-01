@@ -1,6 +1,6 @@
 #!/bin/bash
 EXCLUDE=`cat ./EXCLUDE`
-var=`find -not -path '*/\.*' | grep -v .c`
+var=`find -follow -not -path '*/\.*' | grep -v "\.c"`
 nmb_line=`echo "$var" | wc -l`
 for (( i=1; i<=$nmb_line; i++ ))
 do
