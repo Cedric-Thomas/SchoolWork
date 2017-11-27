@@ -7,6 +7,7 @@
     #define Init() system("chcp 65001");
 #else
     #define clear() system("clear")
+    #define Init()
 #endif
 
 int width = 0, height = 0, ptrn = 0;
