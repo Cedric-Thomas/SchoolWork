@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-#ifdef WIN32
+#ifdef _WIN32
     #define clear() system("cls")
+    #define Init() system("chcp 65001");
 #else
     #define clear() system("clear")
 #endif
@@ -143,5 +144,6 @@ void DrawGame()
 */
 int main(int argc, char **argv)
 {
+    Init()
     Menu();
 }
