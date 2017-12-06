@@ -1,0 +1,30 @@
+-----------
+EXERCICE 1:
+-----------
+
+# en lecture seule "r"
+# en ajout "a"
+# en lecture écriture + écrasement "w+"
+# ajout lecture en mode binaire "ab+"
+
+-----------
+EXERCICE 2:
+-----------
+
+2.1) fopen(), elle renvoie NULL si elle échoue
+2.2) fread(), fgetc()
+2.3) fwrite(), fputc()
+2.4) fclose()
+2.5) fseek()
+2.6) feof()
+
+-----------
+EXERCICE 3:
+-----------
+
+3.1) fgetc()
+3.2) 
+3.3) fread()
+3.4) 
+
+
